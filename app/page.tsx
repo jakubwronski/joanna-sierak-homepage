@@ -17,7 +17,7 @@ export default function Home() {
             className="object-cover brightness-100 blur-sm"
             priority
           />
-          <div className="absolute inset-0 bg-yellow-800/35"></div>
+          <div className="absolute inset-0 bg-yellow-800/0"></div>
         </div>
 
         {/* Content */}
@@ -47,15 +47,23 @@ export default function Home() {
             <div>
               <h2 className="text-4xl font-light mb-6">O mnie</h2>
               <p className="text-gray-600 mb-4">
-                Tu zaczyna się Twój tekst. Możesz kliknąć tutaj i zacznąć pisać. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-              </p>
-              <p className="text-gray-600">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+              Ukończyłam psychologię ze specjalnością psychoterapia na Uniwersytecie Warszawskim. Doświadczenie zawodowe zdobywałam m.in. w placówkach oświatowych, Akademickim Ośrodku Psychoterapii, Ośrodku Integracji Społecznej. Jestem po własnej psychoterapii.
+
+              Wspieram w mierzeniu się z codziennymi wyzwaniami i dążeniu do lepszego zrozumienia siebie. Do każdej osoby podchodzę indywidualnie i z empatią. Kluczowe dla mnie jest stworzenie bezpiecznej przestrzeni, w której rozmówcy mogą eksplorować swoje myśli i uczucia. Wierzę, że każdy zasługuje na wysłuchanie oraz uzyskanie odpowiedniej pomocy. <br /> <br />
+
+              Zapraszam na konsultacje psychologiczne online osoby dorosłe, które potrzebują bieżącego wsparcia i/lub pragną: <br /> <br />
+
+              • lepiej poznać i zrozumieć siebie <br />
+              • skuteczniej radzić sobie ze stresem i napięciem <br />
+              • nauczyć się zarządzać emocjami <br />
+              • nauczyć się asertywnego stawiania granic <br />
+              • efektywniej komunikować się z innymi i budować zdrowe związki <br />
+              • odkryć swoje mocne strony i przyjrzeć się obszarom wymagającym pracy <br />
               </p>
             </div>
             <div className="flex justify-center">
               <Image
-                src="/joanna-sierak2.png"
+                src="/joanna-sierak3.png"
                 alt="Zdjęcie psychologa"
                 width={500}
                 height={600}
@@ -72,19 +80,22 @@ export default function Home() {
         <div className="container mx-auto px-4 py-16">
           <div className="grid md:grid-cols-3 gap-8">
             <ServiceCard
-              title="Indywidualne podejście"
-              description="Kliknij tutaj i zacznij pisać. Ut rhoncus venam quis nostrum exercitation ulam corporis suscipit laboriosam nisi."
-              icon="individual"
-            />
-            <ServiceCard
-              title="Konsultacje osobiste"
-              description="Kliknij tutaj i zacznij pisać. Rum qui dolorem eum fugiat quo voluptas nulla pariatur at vero eros et accumsan et."
+              title="Konsultacje psychologiczne"
+              description="Konsultacja psychologiczna to spotkanie, podczas którego z troską i uwagą wsłuchuję się w Twoje potrzeby i trudności. Wspólnie zastanawiamy się nad możliwymi rozwiązaniami i celami oraz omawiamy, jak mogę Ci pomóc w ich osiągnięciu. "
               icon="personal"
             />
             <ServiceCard
               title="Sesje online"
-              description="Kliknij tutaj i zacznij pisać. Ex commodi consequatur quis autem vel eum iure reprehenderit qui in ea voluptate velit."
+              description="Zadbaj o odpowiednie warunki, aby rozmowa była dla Ciebie komfortowa: <br /> <br />
+              • kamera, mikrofon i Internet <br />
+              • prywatność (ciche miejsce do rozmowy) <br />
+              • zarezerwowana odpowiednia ilość czasu"
               icon="online"
+            />
+            <ServiceCard
+              title="Indywidualne podejście"
+              description="Do każdej osoby podchodzę indywidualnie, <br /> z empatią i otwartością. Skupiam się na Twoich potrzebach, uważnie słuchając <br />i wspierając Cię bez oceniania. Zależy mi, byś czuł/a się zrozumiany/a i mógł/mogła swobodnie mówić o swoich trudnościach."
+              icon="individual"
             />
           </div>
         </div>
@@ -111,31 +122,33 @@ export default function Home() {
                 <span className="text-lg">100 zł</span>
               </div>
             </div>
-
-            <a 
-              href="https://sensly.pl" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-white p-8 rounded-lg shadow-sm space-y-6 transition-colors hover:bg-yellow-800/35 cursor-pointer"
-            >
+            
+            <div className="bg-white p-8 rounded-lg shadow-sm space-y-6">
               <h2 className="text-3xl font-light mb-8">Zapisy</h2>
               <div className="flex justify-between items-center">
                 <div>
-                  {/* <h3 className="font-medium">Umów konsultację online na platformie Sensly:</h3> */}
-                  <p className="text-sm text-gray-500">Umów konsultację online na platformie Sensly:</p>
+                  <p className="text-sm text-gray-500">Umów konsultację online na platformie Sensly lub przez email:</p>
                 </div>
               </div>
-              <div className="flex justify-center">
-                <Image
-                  src="/sensly.png"
-                  alt="Sensly"
-                  width={200}
-                  height={100}
-                  className="object-contain"
-                />
+              <div className="flex flex-row gap-4 justify-center">
+                <a 
+                  href="https://sensly.com/specjalista/joanna-sierak" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-yellow-600 text-white px-8 py-3 rounded-md hover:bg-yellow-700 transition-colors text-center"
+                >
+                  Umów wizytę na Sensly
+                </a>
+                <a 
+                  href="mailto:kontakt.joanna.sierak@gmail.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-yellow-600 text-white px-8 py-3 rounded-md hover:bg-yellow-700 transition-colors text-center"
+                >
+                  Napisz do mnie
+                </a>
               </div>
-            </a>
-            
+            </div>
           </div>
         </div>
       </section>
@@ -151,7 +164,8 @@ export default function Home() {
             <div className="space-y-2">
               <p className="font-medium">Joanna Sierak - psycholożka</p>
               <p>Email: kontakt.joanna.sierak@gmail.com</p>
-              <p>Umawianie wizyt: https://sensly.com/specjalista/joanna-sierak</p>
+              <p>Umawianie wizyt: <a href="https://sensly.com/specjalista/joanna-sierak" target="_blank" rel="noopener noreferrer" className="underline">https://sensly.com/specjalista/joanna-sierak</a></p>
+              
             </div>
           </div>
         </div>

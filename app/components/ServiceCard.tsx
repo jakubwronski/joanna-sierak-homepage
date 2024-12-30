@@ -7,6 +7,9 @@ interface ServiceCardProps {
 }
 
 export default function ServiceCard({ title, description, icon }: ServiceCardProps) {
+  const htmlString = description;
+  const theObj = {__html:htmlString};
+ 
   return (
     <div className="p-6 bg-white rounded-lg shadow-sm">
       <div className="w-12 h-12 mb-4 text-pink-700">
@@ -19,7 +22,7 @@ export default function ServiceCard({ title, description, icon }: ServiceCardPro
         />
       </div>
       <h3 className="text-xl font-medium mb-2">{title}</h3>
-      <p className="text-gray-600">{description}</p>
+      <p className="text-gray-600 whitespace-pre-line" dangerouslySetInnerHTML={theObj}></p>
     </div>
   );
 }
