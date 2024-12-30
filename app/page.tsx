@@ -11,7 +11,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="fixed w-full h-[650px] top-0 left-0">
           <Image
-            src="/joanna-sierak-homepage/peaceful-background2.jpg"
+            src="/peaceful-background2.jpg"
             alt="Peaceful background"
             fill
             className="object-cover brightness-100 blur-sm"
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/joanna-sierak-homepage/joanna-sierak3.png"
+                src="/joanna-sierak3.png"
                 alt="Zdjęcie psychologa"
                 width={500}
                 height={600}

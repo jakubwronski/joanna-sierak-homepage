@@ -14,7 +14,7 @@ export default function ServiceCard({ title, description, icon }: ServiceCardPro
     <div className="p-6 bg-white rounded-lg shadow-sm">
       <div className="w-12 h-12 mb-4 text-pink-700">
         <Image
-          src={`/joanna-sierak-homepage/icons/${icon}.svg`}
+          src={`/icons/${icon}.svg`}
           alt={title}
           width={48}
           height={48}
