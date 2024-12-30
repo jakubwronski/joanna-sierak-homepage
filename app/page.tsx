@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BookingForm from "@/app/components/BookingForm";
+// import BookingForm from "@/app/components/BookingForm";
 import ServiceCard from "@/app/components/ServiceCard";
 import ScrollButton from '@/app/components/ScrollButton';
 
