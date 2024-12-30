@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/jacob/Projects/Asiulek/joanna-sierak-homepage/app/components/ScrollButton.tsx"],"sourcesContent":["'use client';\n\nexport default function ScrollButton() {\n  return (\n    <button \n      onClick={() => {\n        document.getElementById('booking-section')?.scrollIntoView({ \n          behavior: 'smooth' \n        });\n      }}\n      className=\"bg-yellow-600/70 text-white px-8 py-3 rounded-md hover:bg-yellow-700/70 transition-colors\"\n    >\n      Umów wizytę online\n    </button>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS;IACtB,qBACE,6LAAC;QACC,SAAS;YACP,SAAS,cAAc,CAAC,oBAAoB,eAAe;gBACzD,UAAU;YACZ;QACF;QACA,WAAU;kBACX;;;;;;AAIL;KAbwB"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
