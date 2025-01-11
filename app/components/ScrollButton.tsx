@@ -8,7 +8,7 @@ export default function ScrollButton() {
           behavior: 'smooth' 
         });
       }}
-      className="bg-yellow-600/70 text-white px-8 py-3 rounded-md hover:bg-yellow-700/70 transition-colors"
+      className="bg-[#c48958] text-white px-8 py-3 rounded-md hover:bg-[#a9754b] transition-colors"
     >
       Umów wizytę online
     </button>

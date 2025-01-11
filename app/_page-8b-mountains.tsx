@@ -11,13 +11,13 @@ export default function Home() {
         {/* Background Image */}
         <div className="fixed w-full h-[550px] top-0 left-0">
           <Image
-            src="/peaceful-background7a.jpg"
+            src="/peaceful-background8b.jpg"
             alt="Peaceful background"
             fill
-            className="object-cover brightness-90 blur-none"
+            className="object-cover brightness-95 blur-sm"
             priority
           />
-          <div className="absolute inset-0 bg-gray-300/40"></div>
+          <div className="absolute inset-0 bg-white/5"></div>
         </div>
 
         {/* Content */}
@@ -77,7 +77,7 @@ export default function Home() {
 
 
       {/* Services Section */}
-      <section className="relative bg-[#BCA4AB] z-10">
+      <section className="relative bg-[#cfdcd8] z-10">
         <div className="container mx-auto px-4 py-16">
           <div className="grid md:grid-cols-3 gap-8">
             <ServiceCard
@@ -136,7 +136,7 @@ export default function Home() {
                   href="https://sensly.com/specjalista/joanna-sierak" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex-1 bg-[#c48958] text-white px-8 py-3 rounded-md hover:bg-[#a9754b] transition-colors text-center flex items-center justify-center"
+                  className="flex-1 bg-yellow-600/70 text-white px-8 py-3 rounded-md hover:bg-yellow-700/70 transition-colors text-center flex items-center justify-center"
                 >
                   Umów wizytę na Sensly
                 </a>
@@ -144,7 +144,7 @@ export default function Home() {
                   href="mailto:kontakt.joanna.sierak@gmail.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex-1 bg-[#c48958] text-white px-8 py-3 rounded-md hover:bg-[#a9754b] transition-colors text-center flex items-center justify-center"
+                  className="flex-1 bg-yellow-600/70 text-white px-8 py-3 rounded-md hover:bg-yellow-700/70 transition-colors text-center flex items-center justify-center"
                 >
                   Napisz do mnie
                 </a>
