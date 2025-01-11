@@ -18,9 +18,12 @@ export default function Home() {
             className="object-cover brightness-90 blur-none"
             priority
           />
-          <div className="absolute inset-0 bg-gray-300/35"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-300/35 to-[#efddcd]"></div>
+          {/* <div className="absolute inset-0 bg-gray-300/35"></div> */}
         </div>
 
+        {/* Transition div */}
+        {/* <div className="h-24 bg-gradient-to-b from-transparent to-[#efddcd]"></div> */}
 
         {/* Content */}
         <div className="relative container mx-auto px-4 h-full flex flex-col">
@@ -48,7 +51,8 @@ export default function Home() {
       </header>
 
       {/* Wrapper div for gradient background */}
-      <div className="relative z-10 bg-gradient-to-b from-[#efddcd] to-white">
+      <div className="relative z-10 bg-gradient-to-b from-[#efddcd] via-[#efddcd] to-white pt-16">
+        {/* <div className="relative z-10 bg-gradient-to-b from-[#efddcd] to-white"> */}
         {/* About Section */}
         
         <section className="relative bg-transparent">
@@ -70,7 +74,10 @@ export default function Home() {
                 • efektywniej komunikować się z innymi i budować zdrowe związki <br />
                 • odkryć swoje mocne strony i przyjrzeć się obszarom wymagającym pracy. <br /> <br />
 
-                Ukończyłam psychologię ze specjalnością psychoterapia na Uniwersytecie Warszawskim. Doświadczenie zawodowe zdobywałam m.in. w placówkach oświatowych, Akademickim Ośrodku Psychoterapii, Ośrodku Integracji Społecznej. Jestem po własnej psychoterapii.
+                Ukończyłam psychologię ze specjalnością psychoterapia na Uniwersytecie Warszawskim. Doświadczenie zawodowe zdobywałam m.in. w placówkach oświatowych, Akademickim Ośrodku Psychoterapii, Ośrodku Integracji Społecznej. Jestem po własnej psychoterapii. <br /> <br />
+
+                Wolny czas spędzam na świeżym powietrzu, przy dobrej książce lub filmie albo układając puzzle.
+
                 </p>
               </div>
               </AnimateOnScroll>
