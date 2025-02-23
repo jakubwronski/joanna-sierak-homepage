@@ -13,7 +13,7 @@ export default function ServiceCard({ title, description, icon }: ServiceCardPro
  //#c4b5aa
  //#c4b3bb
   return (
-    <div className="p-6 bg-[#96697ba8] rounded-lg shadow-sm">
+    <div className="p-6 bg-[#36767a] rounded-lg shadow-sm">
       <div className="w-12 h-12 mb-4 text-pink-700">
         <Image
           src={`/icons/${icon}.svg`}

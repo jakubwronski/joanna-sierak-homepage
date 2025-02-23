@@ -12,13 +12,14 @@ export default function Home() {
         {/* Background Image */}
         <div className="fixed w-full h-[550px] top-0 left-0">
           <Image
-            src="/peaceful-background7a.jpg"
+            src="/mountains2.jpeg"
             alt="Peaceful background"
             fill
             className="object-cover brightness-90 blur-none"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-300/35 to-[#efddcd]"></div>
+          {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-300/35"></div> */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-300/35 to-[#dac5b5]"></div>
           {/* <div className="absolute inset-0 bg-gray-300/35"></div> */}
         </div>
 
@@ -51,7 +52,8 @@ export default function Home() {
       </header>
 
       {/* Wrapper div for gradient background */}
-      <div className="relative z-10 bg-gradient-to-b from-[#efddcd] via-[#efddcd] to-white pt-16">
+      <div className="relative z-10 bg-gradient-to-b from-[#dac5b5] via-[#f7eee8] to-white pt-16">
+      {/* <div className="relative z-10 bg-gradient-to-b from-[#efddcd] via-[#efddcd] to-white pt-16"> */}
         {/* <div className="relative z-10 bg-gradient-to-b from-[#efddcd] to-white"> */}
         {/* About Section */}
         
@@ -85,7 +87,7 @@ export default function Home() {
               <AnimateOnScroll>
               <div className="flex justify-center">
                 <Image
-                  src="/joanna-sierak3.png"
+                  src="/joanna-sierak4.png"
                   alt="Zdjęcie psychologa"
                   width={500}
                   height={600}
@@ -168,7 +170,7 @@ export default function Home() {
                     href="https://sensly.com/specjalista/joanna-sierak" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex-1 bg-[#96697ba8] text-white px-8 py-3 rounded-md hover:bg-[#96697b] transition-colors text-center flex items-center justify-center"
+                    className="flex-1 bg-[#36767a] text-white px-8 py-3 rounded-md hover:bg-[#0C5154] transition-colors text-center flex items-center justify-center"
                   >
                     Umów wizytę na Sensly
                   </a>
@@ -176,7 +178,7 @@ export default function Home() {
                     href="mailto:kontakt.joanna.sierak@gmail.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex-1 bg-[#96697ba8] text-white px-8 py-3 rounded-md hover:bg-[#96697b] transition-colors text-center flex items-center justify-center"
+                    className="flex-1 bg-[#36767a] text-white px-8 py-3 rounded-md hover:bg-[#0C5154] transition-colors text-center flex items-center justify-center"
                   >
                     Napisz do mnie
                   </a>
