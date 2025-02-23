@@ -85,7 +85,7 @@ export default function Home() {
               <AnimateOnScroll>
               <div className="flex justify-center">
                 <Image
-                  src="/joanna-sierak3.png"
+                  src="/joanna-sierak4.png"
                   alt="Zdjęcie psychologa"
                   width={500}
                   height={600}
