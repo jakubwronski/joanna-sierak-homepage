@@ -30,7 +30,7 @@ export default function Home() {
         <div className="relative container mx-auto px-4 h-full flex flex-col">
           <nav className="py-4">
             <h1 className="text-gray-800 text-1xl">
-              <span className="font-semibold">Joanna Sierak</span> - gabinet psychologiczny
+              <span className="font-semibold">Joanna Sierak-Wrońska</span> - gabinet psychologiczny
             </h1>
           </nav>
           
@@ -152,7 +152,7 @@ export default function Home() {
                     <h3 className="font-medium">Konsultacja psychologiczna online</h3>
                     <p className="text-sm text-gray-500">Konsultacja psychologiczna online - 50 minut</p>
                   </div>
-                  <span className="text-lg whitespace-nowrap">100 zł</span>
+                  <span className="text-lg whitespace-nowrap">140 zł</span>
                 </div>
               </div>
               </AnimateOnScroll>
@@ -198,7 +198,7 @@ export default function Home() {
                 Zapraszam do kontaktu. Możesz umówić się na wizytę bezpośrednio na platformie Sensly lub mailowo.
               </p>
               <div className="space-y-2">
-                <p className="font-medium">Joanna Sierak - psycholożka</p>
+                <p className="font-medium">Joanna Sierak-Wrońska - psycholożka</p>
                 <p>Email: kontakt.joanna.sierak@gmail.com</p>
                 <p>Umawianie wizyt: <a href="https://sensly.com/specjalista/joanna-sierak" target="_blank" rel="noopener noreferrer" className="underline">https://sensly.com/specjalista/joanna-sierak</a></p>
                 
@@ -208,7 +208,7 @@ export default function Home() {
         </section>
         <footer className="relative bg-transparent">
           <div className="container mx-auto px-4 py-8 text-center text-sm text-gray-500">
-            <p>© 2024 Wszelkie prawa zastrzeżone | Joanna Sierak - gabinet psychologiczny</p>
+            <p>© 2026 Wszelkie prawa zastrzeżone | Joanna Sierak-Wrońska - gabinet psychologiczny</p>
           </div>
         </footer>
       </div>
